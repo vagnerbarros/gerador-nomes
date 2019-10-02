@@ -1,4 +1,4 @@
-# tutorial-brannas
+# gerador-nomes
 
 ## Project setup
 ```
