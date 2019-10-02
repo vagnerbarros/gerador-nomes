@@ -55,17 +55,17 @@
 
 <script>
 
-import "bootstrap/dist/css/bootstrap.css";
-import "font-awesome/css/font-awesome.css";
+import 'bootstrap/dist/css/bootstrap.css';
+import 'font-awesome/css/font-awesome.css';
 
 export default {
   name: 'app',
   data: () => ({
     prefixes: ['Air', 'Jet', 'Flight'],
     sufixes: ['Hub', 'Station', 'Mart'],
-    domains: ['AirHub', 'AirStation']
+    domains: ['AirHub', 'AirStation', 'AirMart', 'JetHub', 'JetStation', 'JetMart', 'FlightHub', 'FlightStation', 'FlightMart']
   })
-}
+};
 </script>
 
 <style>
