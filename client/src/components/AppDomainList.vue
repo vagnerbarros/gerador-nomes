@@ -27,6 +27,10 @@
                   <a class="btn btn-info" :href="domain.checkout" target="blank">
                     <span class="fa fa-shopping-cart"></span>
                   </a>
+                  &nbsp;
+                  <button class="btn btn-info" @click="openDomain(domain)">
+                    <span class="fa fa-search"></span>
+                  </button>
                 </div>
               </div>
             </li>
@@ -161,6 +165,12 @@ export default {
       }).then(response => {
         const query = response.data;
         this.domains = query.data.domains;
+      });
+    },
+
+    openDomain(domain){
+      this.$router.push({
+        path: `/domains/${domain.name}`
       });
     }
   },

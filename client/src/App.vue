@@ -6,7 +6,7 @@
       <h6 class="text-secondary">Gerador de Nome Utilizando Vue.js, GraphQL e Node.js</h6>
     </div>
     <div id="main">
-      <AppDomainList></AppDomainList>
+      <router-view></router-view>
     </div>
   </div>
 </template>
