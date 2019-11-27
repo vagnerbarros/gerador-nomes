@@ -15,14 +15,11 @@
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.css';
-import AppDomainList from './components/AppDomainList';
 
 export default {
   name: 'app',
-  components: {
-    AppDomainList
-  },
 };
+
 </script>
 
 <style>

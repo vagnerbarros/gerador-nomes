@@ -39,7 +39,7 @@ import axios from 'axios/dist/axios';
 
 export default {
   
-  props: ["domain"],
+  props: ['domain'],
 
   data: () => ({
     domain: '',

@@ -5,6 +5,8 @@ import VueRouter from 'vue-router';
 import DomainList from './components/AppDomainList';
 import DomainView from './components/AppDomainView';
 
+import store from './store/store';
+
 Vue.config.productionTip = false;
 
 Vue.use(VueRouter);
@@ -29,5 +31,6 @@ const router = new VueRouter({
 
 new Vue({
   router,
+  store,
   render: h => h(App),
 }).$mount('#app');
